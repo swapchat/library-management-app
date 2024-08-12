@@ -1,7 +1,11 @@
-import React from "react";
+import { Button } from "./components/ui/button";
 
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <Button className="my-4 ml-4" variant="ghost">
+      Click here
+    </Button>
+  );
 };
 
 export default App;
