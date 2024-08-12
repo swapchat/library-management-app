@@ -7,8 +7,6 @@ const Navigation = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
-  console.log({ pathname });
-
   const handleNavigate = ({ index, path }) => {
     setCurrentIndex(index);
     navigate(path);
